@@ -16,8 +16,8 @@ public class App {
 
         //Bài 2
         if (checkPrime(a)) {
-            System.out.println("Đây là mãng toàn số nguyên tố.");
-        } else System.out.println("Đây là mãng ko phải toàn số nguyên tố");
+            System.out.println("Đây là mảng toàn số nguyên tố.");
+        } else System.out.println("Đây là mảng ko phải toàn số nguyên tố");
 
         //Bài 3
         int max = maxArr(a);
@@ -54,7 +54,6 @@ public class App {
             }
             System.out.println();
         }
-
     }
 
     public static int[][] generateMatrix(int r, int c, int min, int max) {
